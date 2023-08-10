@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+.div-body{
+    display: flex;
+    min-height: 100%;
+    background: #100E1D;
+}
+
+.div-search img{
+    margin-top: 20%;
+    height: 200px;
+    width: 190px !important;
+}
+
+.footer-search{
+    margin-top: 45%;
+}
+
+.div-search{
+    text-align: center !important;
+    min-width: 30%;
+    min-height: 100%;
+    background: #1E213A !important;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-search p{
+    color: #A09FB1;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.div-btn-search{
+    text-align: start !important;
+    margin-top: 25px !important;
+    margin-left: 22px !important;
+}
+
+.div-search .span{
+    color: #A09FB1 !important;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10%;
+}
+
+.p-secundary{
+    text-align: center;
+    font-size: 36px !important;
+    font-weight: 400 !important;
+}
+
+.btn-search{
+    background: #6E707A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.p-ubication{
+    margin-top: 0 !important;
+}
+
+.p-fecha, .p-ubication{
+    margin-bottom: 0 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.div-history{
+    min-width: 70%;
+    min-height: 100%;
+    background: #100E1D !important;
+    display: inline-block;
+    padding: 1%;
+}
+
+p, h1{
+    color: #A09FB1;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.p-text{
+    color: #A09FB1;
+    font-size: 15px;
+    font-weight: 600;
+}
+button{
+    color: #fff !important;
+}
+
+.button-FC-active{
+    margin-right: 10px;
+    min-width: min-content !important;
+    border-radius: 54px;
+    color: black !important;
+    background: #E7E7EB;
+}
+
+.button-FC{
+    margin-right: 10px;
+    min-width: min-content !important;
+    border-radius: 54px;
+    background: #585676;
+}
+
+.div-cards{
+    padding: 9px;
+    background: #1E213A;
+    min-width: 15%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.p-cards{
+    color: #E7E7EB;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+
+.p-cards-max{
+    color: #A09FB1;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.div-cards img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.temperature{
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+
+.temperature p{
+    width: 50%;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.temperature span{
+    font-size: 10px;
+}
+
+h1{
+    color: #E7E7EB;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+.cards-history{
+    margin-top: 40px;
+    min-width: 100%;
+}
+
+.hightlights-tabs{
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    width: 40%;
+    background: #1E213A;
+}
+
+.hightlights-tabs p{
+    color: #E7E7EB;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.p-values-hightlights{
+    font-size: 64px !important;
+    color: #E7E7EB;
+    font-weight: 700;
+}
+
+.p-values-hightlights span{
+    color: #E7E7EB;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.cards-history h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-searchMode{
+    background: #3C47E9;
+    margin-right: 15px !important;
+    padding: 22px !important;
+}
+
+.input{
+    background-color: #1E213A;
+    box-sizing: border-box;
+    color: #E7E7EB;
+    padding: 10px 10px 10px 35px;
+    width: 100%;
+    border: none;
+}
+
+.input-wrapper {
+    margin-left: 10px;
+    background-color: #1E213A;
+    position: relative;
+    width: 70%;
+    border: 1px solid #E7E7EB !important;
+}
+
+.input-icon {
+    color: #E7E7EB;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.city{
+    margin-right: 15px !important;
+    margin-top: 5px;
+    margin-left: 22px !important;
+    padding: 15px !important;
+    cursor: pointer;
+}
+
+.city:hover{
+    border: 1px solid #E7E7EB !important;
+}
+
+.city p{
+    margin: 0 !important;
+    text-align: start;
+    font-size: 16px;
+}
+
+.navigation{
+    color: #E7E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-direction{
+    margin-right: 5px;
+}
+
+.div-hightlights{
+    margin-left: 10px;
+    margin-right: 0 !important;
+}
+
+.bar-process-number{
+    color: #A09FB1 !important;
+    margin: 0 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .hightlights-tabs{
+        padding: 5px;
+        margin-top: 10px;
+        display: inline-block;
+        margin-right: 12px;
+        width: 40%;
+        background: #1E213A;
+    }
+    .cards-history h1{
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .p-values-hightlights{
+        font-size: 40px !important;
+        color: #E7E7EB;
+        font-weight: 700;
+    }
+    
+    .p-values-hightlights span{
+        color: #E7E7EB;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .cards-history{
+        margin-top: 0;
+        min-width: 100%;
+    }
+
+    .div-search img{
+        margin-top: 0;
+        height: 200px;
+        width: 150px;
+    }
+    .footer-search{
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .div-search{
+        min-width: 40%;
+    }
+
+    .div-history{
+        min-width: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 740px) {
+    .hightlights-tabs p{
+        font-size: 12px;
+    }
+    .p-values-hightlights{
+        font-size: 20px;
+    }
+    .p-values-hightlights span{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .div-body{
+        display: inline-block;
+        min-height: 100%;
+        min-width: 100%;
+    }
+    
+    .div-search{
+        min-width: 100%;
+    }
+
+    .div-history{
+        min-width: 100%;
+    }
+
+    .hightlights-tabs{
+        padding:5px;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+}
